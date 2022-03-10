@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, StyleSheet, SafeAreaView } from 'react-native'
+import { View, StyleSheet } from 'react-native'
 import { getData, getDetail } from '../api/indecon'
 
 import MainCard from '../components/MainCard'

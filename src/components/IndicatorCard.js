@@ -11,7 +11,7 @@ const IndicatorCard = (props) => {
   }
 
   return (
-    <TouchableWithoutFeedback onPress={goToDetail}>
+    <TouchableWithoutFeedback testID='indicator-card' onPress={goToDetail}>
       <View style={styles.card}>
         <View>
           <Text style={styles.name}>{ indicator.name }</Text>
